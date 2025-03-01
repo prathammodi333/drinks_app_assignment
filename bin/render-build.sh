@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -o errexit
 
-echo "Installing Node.js..."
-curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
-apt-get install -y nodejs
+echo "Using Render's pre-installed Node.js..."
+node -v  # Verify Node.js version
+npm -v   # Verify npm version
 
 echo "Installing Rails..."
 gem install rails -v 8.0.1

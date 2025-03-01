@@ -65,3 +65,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem 'mini_racer' # JavaScript runtime for ExecJS
